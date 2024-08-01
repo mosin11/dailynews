@@ -1,11 +1,11 @@
 import RoutesContext from "./RoutesContext";
 import FetchBaseNewsURL from "../../models/FetchBaseNewsURL";
-import { useState } from "react";
+// import { useState } from "react";
 
 
 const RoutesStates = (props) => {
-    const [newsURLs, setNewsURLs] = useState([]);
-    const [categoryNames, setCategoryNames] = useState([]);
+    // const [newsURLs, setNewsURLs] = useState([]);
+    // const [categoryNames, setCategoryNames] = useState([]);
     const categoryName = [];
     const newsURL = [];
     const source="TheTimesofIndia"
@@ -15,9 +15,9 @@ const RoutesStates = (props) => {
     const baseNewsURL = async () => {
         try {
             const fetchedUrls = await FetchBaseNewsURL( source );     
-            console.log('fetchedUrls',fetchedUrls);
-            setNewsURLs(fetchedUrls.newsURL);
-            setCategoryNames(fetchedUrls.categoryName);
+            //console.log('fetchedUrls',fetchedUrls);
+            // setNewsURLs(fetchedUrls.newsURL);
+            // setCategoryNames(fetchedUrls.categoryName);
             
             
         // for (const element of fetchedUrls.categoryName) {
@@ -43,8 +43,8 @@ const RoutesStates = (props) => {
         
    
    
-       console.log('newsURLs',newsURLs);
-       console.log('categoryNames',categoryNames);
+     //  console.log('newsURLs',newsURLs);
+     //  console.log('categoryNames',categoryNames);
     return (
         <RoutesContext.Provider value={{newsURL, categoryName,  baseNewsURL}}>
             {props.children}

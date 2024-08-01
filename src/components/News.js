@@ -39,8 +39,8 @@ const News = ({ path,isCategoryFetched, category,newsURL,source}) => {
             if (!response.ok) throw new Error('Network response was not ok');            
             const data = await response.json();      
             
-            console.log("response data articles metadata",data.metadata);
-            console.log("response data articles totalResults",data.totalArticles);
+            //console.log("response data articles metadata",data.metadata);
+           // console.log("response data articles totalResults",data.totalArticles);
 
             setArticles(prevArticles => prevArticles.concat(data.totalArticles)); // Append new articles
             setArticlesMetaData(data.metadata);

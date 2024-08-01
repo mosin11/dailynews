@@ -1,6 +1,5 @@
 import React, {  useState } from 'react';
 import { Link } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar({baseURL}) {
   //console.log('baseURL navbar',baseURL)

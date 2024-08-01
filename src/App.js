@@ -69,7 +69,7 @@ function App() {
   
 
   const updateCategoryAndNewsURL = async (location) => {
-    console.log('routes in side update', routes)
+   // console.log('routes in side update', routes)
     const route = routes.find(route => route.path === location.pathname);
     
     if (route) {
