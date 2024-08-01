@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dailynews/TheTimesofIndia/static/css/main.33abea79.css",
-    "main.js": "/dailynews/TheTimesofIndia/static/js/main.8ed51cd1.js",
-    "static/js/453.91e06295.chunk.js": "/dailynews/TheTimesofIndia/static/js/453.91e06295.chunk.js",
-    "static/media/Spinner.gif": "/dailynews/TheTimesofIndia/static/media/Spinner.79dca6f9d5e1803c8342.gif",
-    "static/media/latest-news.jpg": "/dailynews/TheTimesofIndia/static/media/latest-news.bceb8e880704b6895a67.jpg",
-    "index.html": "/dailynews/TheTimesofIndia/index.html",
-    "main.33abea79.css.map": "/dailynews/TheTimesofIndia/static/css/main.33abea79.css.map",
-    "main.8ed51cd1.js.map": "/dailynews/TheTimesofIndia/static/js/main.8ed51cd1.js.map",
-    "453.91e06295.chunk.js.map": "/dailynews/TheTimesofIndia/static/js/453.91e06295.chunk.js.map"
+    "main.css": "/dailynews/static/css/main.33abea79.css",
+    "main.js": "/dailynews/static/js/main.82529caf.js",
+    "static/js/453.91e06295.chunk.js": "/dailynews/static/js/453.91e06295.chunk.js",
+    "static/media/Spinner.gif": "/dailynews/static/media/Spinner.79dca6f9d5e1803c8342.gif",
+    "static/media/latest-news.jpg": "/dailynews/static/media/latest-news.bceb8e880704b6895a67.jpg",
+    "index.html": "/dailynews/index.html",
+    "main.33abea79.css.map": "/dailynews/static/css/main.33abea79.css.map",
+    "main.82529caf.js.map": "/dailynews/static/js/main.82529caf.js.map",
+    "453.91e06295.chunk.js.map": "/dailynews/static/js/453.91e06295.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33abea79.css",
-    "static/js/main.8ed51cd1.js"
+    "static/js/main.82529caf.js"
   ]
 }
