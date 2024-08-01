@@ -2,7 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import News from './components/News';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation,Navigate  } from 'react-router-dom';
 import { useState, useMemo,  useEffect } from 'react';
 import FetchBaseNewsURL from './models/FetchBaseNewsURL'
 
@@ -92,10 +92,11 @@ useEffect(()=>{
   
 
   return (
-    <Router>
+    <Router basename="/dailynews">
       <Navbar baseURL={baseURL.categoryName} fetchedUrlscategory={categoryName} newsURL={newsURL} />
       <div className="container my-3">
         <Routes>
+        <Route path="/" element={<Navigate to="/TheTimesofIndia" />} />
           {routes.map(({ newsURL, path, category, source }) => (
             <Route
               key={path}
