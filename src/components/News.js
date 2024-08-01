@@ -17,7 +17,8 @@ const News = ({ path,isCategoryFetched, category,newsURL,source}) => {
         
         try {
             //let urls = `http://localhost:5000/rss${path}`;             
-            const url = `http://localhost:5000/rss/${source}/${category}`;
+           // const url = `http://localhost:5000/rss/${source}/${category}`;
+            const url = `https://mynewss.onrender.com/rss/${source}/${category}`;
             
     const requestBody = {
             newsURL :newsURL,            

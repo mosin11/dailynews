@@ -1,6 +1,7 @@
 const FetchBaseNewsURL = async (source) => {
     try {
-        const url = `http://localhost:5000/rss/${source}`;
+        const url = `https://mynewss.onrender.com/rss/${source}`;
+        //const url = `http://localhost:5000/rss/${source}`;
 
         const requestBody = {              
             source: source || '' // Include source if available

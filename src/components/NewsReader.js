@@ -8,7 +8,8 @@ const NewsReader = () => {
   useEffect(() => {
     const fetchRSS = async () => {
       try {
-        const response = await fetch('http://localhost:5000/rss');
+        //const response = await fetch('http://localhost:5000/rss');
+        const response = await fetch('https://mynewss.onrender.com/rss');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
