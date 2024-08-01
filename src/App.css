@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.news-article {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.news-article h2 {
+  font-size: 1.5em;
+}
+
+.news-article p {
+  font-size: 1em;
+  color: #333;
+}
+
+.news-article a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+/* src/App.css */
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  max-height: 200px; /* Adjust the height as needed */
+  overflow-y: scroll;
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  white-space: nowrap; /* Prevent line wrapping inside the dropdown */
+  border-radius: 0.375rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for dropdown */
+  background: linear-gradient(to bottom, #37eefb, #feb47b); /* Gradient background */
+
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+  transition: background-color 0.2s ease, color 0.2s ease;
+  font-size: 20px !important;
+}
+
+.dropdown-item:hover {
+  background-color: #1d65ad !important; /* Change to Bootstrap primary color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+.dropdown-item:active {
+  background-color: #0056b3; /* Darker shade for active item */
+  color: #fff; /* Keep text color consistent */
+}
+
+.custom-infinite-scroll {
+  overflow: visible !important; /* Override the default overflow style */
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  display: none !important; /* Hide scrollbar */
+}
+.dropdown-menu {
+  scrollbar-width: none; /* Hide scrollbar */
+}
